@@ -167,6 +167,9 @@ After you publish your app, you may want to change or update it.
 4. Update **Setup**, **Content**, and **Audience**, if you need to, then select **Update app**.
 
     The people you've published the app to automatically see the updated version of the app.
+   
+    > [!Note]
+    > If you removed app permissions as part of the update, new app installers won't get those permissions. However, **the update won't remove the permissions from users who already have them.** To remove such existing access, go to the Direct access tab on the datasets manage permissions page and remove the permissions manually. 
 
 ## Automatically install apps for end users
 If an admin gives you permission, you can install apps automatically, pushing them to app consumers. This push functionality makes it easier to distribute the right apps to the right people or groups. Your app appears automatically in your end users' Apps content list. They don't have to find it from the Apps marketplace or Microsoft AppSource or follow an installation link. See how admins enable [pushing apps to end users](../admin/service-admin-portal-content-pack-app.md#push-apps-to-end-users) in the Power BI admin portal article.
